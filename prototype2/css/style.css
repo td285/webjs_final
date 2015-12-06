@@ -1,0 +1,117 @@
+body {
+/*	font-family: Monospace;
+	background-color: #fff;
+	color: #fff;
+	margin: 0px;
+	overflow: hidden;*/
+	font-family: 'helvetica';
+    -webkit-font-smoothing: antialiased;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+a:hover {
+    color: #E82E21;
+}
+
+.header {
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 1%;
+    letter-spacing: 7px;
+    left: 10%;
+    right: 10%;
+    z-index: 9999;
+}
+
+
+
+.home{
+	font-size: 85px;
+	padding-bottom: 50px;
+}
+
+.menu {
+	position: fixed;
+    left: 7%;
+    font-size: 50px;
+    list-style-type: none;
+    padding: 0 0 5px;
+    top: 5%;
+    text-align: left;
+    color: #000000;
+    line-height: 50px;
+    font-weight: normal;
+    z-index: 9999;
+    -webkit-font-smoothing: antialiased;
+    font-family: helvetica;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.menu a:hover {
+     color: #9b9b9b;
+
+}
+
+.home a:hover {
+    color: black;
+}
+
+.element {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 30px;
+    position: fixed;
+    top: 14%;
+    left: 80%;
+    width: 320px;
+    z-index: 9999;
+    text-align: left;
+    -webkit-transform: rotate(90deg);
+       -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+         -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+
+}
+
+.g1 {
+	position: absolute;
+	z-index: 8888;
+}
+.manhattan {
+	position: fixed;
+	margin-top: 10%;
+	margin-left: 45%;
+}
+.bronx {
+	position: fixed;
+	margin-top: 5%;
+	margin-left: 56%;
+
+}.queens {
+	position: fixed;
+	margin-top: 19.5%;
+	margin-left: 53%;
+}
+
+.brooklyn {
+	position: fixed;
+	margin-top: 28%;
+	margin-left: 45%;
+}
+.si {
+	position: fixed;
+	margin-top: 45%;
+	margin-left: 28%;
+}
